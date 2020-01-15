@@ -16,3 +16,5 @@
 - Adds files
 - Commits files with commit message
 - Pushes files to current branch as long as the upstream is set
+5. Clean Node Modules
+- Digs down deep to remove node modules folders
