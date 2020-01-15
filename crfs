@@ -5,6 +5,4 @@ mkdir configs pages styles components sources
 mkdir sources/images
 touch configs/AppRouter.jsx configs/PrivateRoute.jsx
 touch pages/Home.jsx
-touch components/NavBar.jsx
-touch components/Header.jsx
-touch components/footer.jsx
+touch components/NavBar.jsx components/Header.jsx components/Footer.jsx
