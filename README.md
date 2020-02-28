@@ -2,19 +2,27 @@
 
 
 ## Scripts
-1. Create React App
-- Creates a react app using `npx create-react-app`
+1. Setup React App With Working Navigation
 - Asks for App Name
-2. Create react file structure
-- Creates a React file structure the way I want it
-3. Git Create Branch
+- Installs React Router
+- Creates Files (With Content)
+ * AppRouter
+ * Private Route
+ * NavBar
+ * Header
+ * Footer
+ * Home
+ * About
+ * Contact
+- Rewrites app and index.js
+2. Git Create Branch
 - Asks for branch name
 - Creates a new branch
 - Sets the upstream for the branch
-4. Git Deploy
+3. Git Deploy
 - Asks for a Commit message
 - Adds files
 - Commits files with commit message
 - Pushes files to current branch as long as the upstream is set
-5. Clean Node Modules
+4. Clean Node Modules
 - Digs down deep to remove node modules folders
