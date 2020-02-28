@@ -6,14 +6,14 @@
 - Asks for App Name
 - Installs React Router
 - Creates Files (With Content)
- * AppRouter
- * Private Route
- * NavBar
- * Header
- * Footer
- * Home
- * About
- * Contact
+  * AppRouter
+  * Private Route
+  * NavBar
+  * Header
+  * Footer
+  * Home
+  * About
+  * Contact
 - Rewrites app and index.js
 2. Git Create Branch
 - Asks for branch name
