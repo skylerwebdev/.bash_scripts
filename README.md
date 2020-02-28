@@ -16,7 +16,7 @@
 
 ## Make sudo run with no password
 1. Edit `/etc/sudoers`
-2. Add `username  ALL=(ALL) NOPASSWD: ALL`
+2. Add `YourUsernameHere  ALL=(ALL) NOPASSWD: ALL`
 3. `source /etc/sudoers/` or open a new terminal.
 
 ## Scripts
