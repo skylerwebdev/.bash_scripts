@@ -12,7 +12,7 @@ bash_scripts`
 
 ## Instructions for Aliases
 1. You can put them in `~/.bashrc` or `~/.bash_aliases`
-2. `alias cra = '~/.bash_scripts/setup-react.sh`
+2. `alias cra ='~/.bash_scripts/setup-react.sh`
 - This will run the script in your current folder.
 
 ## Scripts
