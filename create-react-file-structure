@@ -1,8 +1,0 @@
-#!/bin/bash
-npm i react-router react-router-dom
-
-mkdir configs pages styles components sources
-mkdir sources/images
-touch configs/AppRouter.jsx configs/PrivateRoute.jsx
-touch pages/Home.jsx
-touch components/NavBar.jsx components/Header.jsx components/Footer.jsx
