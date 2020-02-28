@@ -17,7 +17,7 @@ cd "$appname"
 npm i react-router react-router-dom
 
 cd src
-
+mkdir -p configs pages/user pages/admin styles components/pages components/reuse sources/images sources/raw_images sources/layouts
 touch configs/AppRouter.jsx configs/PrivateRoute.jsx pages/user/Home.jsx pages/user/Contact.jsx pages/user/About.jsx pages/user/Tos.jsx pages/user/PrivPol.jsx components/reuse/Navbar.jsx components/pages/Header.jsx components/pages/Footer.jsx styles/Nav.css styles/Pages.css
 
 echo "
@@ -200,11 +200,7 @@ import { Link as L } from 'react-router-dom'
 const Footer = () => {
     return (
         <div className='mnFtr'>
-            <p>&copy; 2020 SkylerWebDev 
-            <L to='/tos'>Terms Of Service</L>
-            <L to='privpol'>Privacy Policy</L>
-            <L to='/shoutouts'>Sponsors/Credits</L>
-            </p>
+           <p>Created with SkylerWebDev Shell Script.</p>
         </div>
     )
 }
@@ -232,7 +228,7 @@ function App() {
 }
 
 export default App;
-" > components/pages/App.js
+" > App.js
 
 echo "
 import React from 'react';
@@ -241,15 +237,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as BR } from 'react-router-dom'
-ReactDOM.render(
-<BR><App /></BR>, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
+ReactDOM.render(GoodByeto work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-" > index.jsGoodBye
+" > index.js
 
 echo " 
 import React from 'react'
