@@ -14,6 +14,11 @@
 2. `alias cra ='~/.bash_scripts/setup-react.sh`
 - This will run the script in your current folder.
 
+## Make sudo run with no password
+1. Edit `/etc/sudoers`
+2. Add `username  ALL=(ALL) NOPASSWD: ALL`
+3. `source /etc/sudoers/` or open a new terminal.
+
 ## Scripts
 1. Setup React App With Working Navigation
 - Asks for App Name
