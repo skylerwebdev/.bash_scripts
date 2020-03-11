@@ -18,7 +18,7 @@ npm i react-router react-router-dom
 
 cd src
 mkdir -p configs pages/user pages/admin styles components/pages components/reuse sources/images sources/raw_images sources/layouts
-touch configs/AppRouter.jsx configs/PrivateRoute.jsx pages/user/Home.jsx pages/user/Contact.jsx pages/user/About.jsx pages/user/Tos.jsx pages/user/PrivPol.jsx components/reuse/Navbar.jsx components/pages/Header.jsx components/pages/Footer.jsx styles/Nav.css styles/Pages.css
+touch configs/AppRouter.jsx configs/PrivateRoute.jsx pages/user/Home.jsx pages/user/Contact.jsx pages/user/About.jsx pages/user/Tos.jsx pages/user/PrivPol.jsx components/reuse/NavBar.jsx components/pages/Header.jsx components/pages/Footer.jsx styles/Nav.css styles/Pages.css
 
 echo "
 import React from 'react';
