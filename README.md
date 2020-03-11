@@ -5,15 +5,12 @@
 
 ## Instructions for Shell Scripts
 1. To use the scripts put clone this repo into your home folder
-2. Make a symbolic link for aliases (linux) `ln -sv ./.bash_scripts/bash_aliases ~/.bash_aliases`
-3. Make them executeable (linux) `chmod +x ~/.bash_scripts/* -R`
-4. Run the script you want to run eg.. `bash ~/.bash_scripts/setup-react.sh` or Double Click it.
-5. You can create aliases for them as well
+2. Make them executeable (linux) `chmod +x ~/.bash_scripts/* -R`
+3. Run the script you want to run eg.. `bash ~/.bash_scripts/setup-react.sh` or Double Click it.
+4. You can create aliases for them as well
 
 ## Instructions for Aliases
-1. You can put them in `~/.bashrc` or `~/.bash_aliases`
-2. `alias cra ='~/.bash_scripts/setup-react.sh`
-- This will run the script in your current folder.
+1. Make a symbolic link for aliases (linux) `ln -sv ./.bash_scripts/bash_aliases ~/.bash_aliases` 
 
 ## Make sudo run with no password
 1. Edit `/etc/sudoers`
