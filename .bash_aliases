@@ -1,4 +1,6 @@
+
 alias z1='code .'
+alias md='mkdir'
 alias nalias='nano ~/.bash_aliases'
 alias salias='source ~/.bash_aliases'
 alias saifb='sudo apt install --fix-broken'

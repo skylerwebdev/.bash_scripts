@@ -144,7 +144,7 @@ export default PrivPol
 
 
 echo " 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { NavLink as NL } from 'react-router-dom';
 import '../../styles/Nav.css';
 const NavBar = () => {
@@ -196,7 +196,6 @@ export default Header
 " > components/pages/Header.jsx
 echo " 
 import React from 'react'
-import { Link as L } from 'react-router-dom'
 const Footer = () => {
     return (
         <div className='mnFtr'>
@@ -235,7 +234,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as BR } from 'react-router-dom'
 ReactDOM.render(
 <BR>
@@ -243,7 +241,6 @@ ReactDOM.render(
 </BR>
 , document.getElementById('root'));
 
-serviceWorker.unregister();
 
 
 " > index.js
