@@ -42,3 +42,6 @@
 - Pushes files to current branch as long as the upstream is set
 4. Clean Node Modules
 - Digs down deep to remove node modules folders
+5. Install_googlefonts.sh
+- Installs all google fonts
+- SHOUTOUT TO @keeferrourke FOR THE SCRIPT
