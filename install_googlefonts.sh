@@ -4,7 +4,7 @@
 # Based on AUR package <https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=ttf-google-fonts-git>
 
 # dependancies: fonts-cantarell, ttf-ubuntu-font-family, git
-sudo apt-get install fonts-cantarell ttf-ubuntu-font-family git
+sudo apt install fonts-cantarell ttf-ubuntu-font-family git
 srcdir="/tmp/google-fonts"
 pkgdir="/usr/share/fonts/truetype/google-fonts"
 giturl="git://github.com/google/fonts.git"
@@ -23,7 +23,7 @@ sudo find $pkgdir -type f -name "Cantarell-*.ttf" -delete \;
 sudo find $pkgdir -type f -name "Ubuntu-*.ttf" -delete \;
 
 # provides roboto
-sudo apt-get --purge remove fonts-roboto
+sudo apt --purge remove fonts-roboto
 
 echo "Updating font-cache..."
 sudo fc-cache -f > /dev/null
